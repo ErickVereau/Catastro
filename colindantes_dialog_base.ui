@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CalculoLinderosDialogBase</class>
+ <widget class="QDialog" name="CalculoLinderosDialogBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1031</width>
+    <height>495</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Calculo Linderos</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="lblNumeroC">
+     <property name="text">
+      <string>Número Catastral del Predio Seleccionado</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QPushButton" name="btnLimpiar">
+     <property name="text">
+      <string>Limpiar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3">
+    <widget class="QPushButton" name="btnSalir">
+     <property name="text">
+      <string>Cerrar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1" colspan="3">
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="4">
+    <widget class="QTableWidget" name="tblColindante">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <attribute name="horizontalHeaderCascadingSectionResizes">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>160</number>
+     </attribute>
+     <column>
+      <property name="text">
+       <string>Vértice</string>
+      </property>
+      <property name="textAlignment">
+       <set>AlignCenter</set>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Coordenada Este</string>
+      </property>
+      <property name="textAlignment">
+       <set>AlignCenter</set>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Coordenada Norte</string>
+      </property>
+      <property name="textAlignment">
+       <set>AlignCenter</set>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Distancia</string>
+      </property>
+      <property name="textAlignment">
+       <set>AlignCenter</set>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Nombre Predio</string>
+      </property>
+      <property name="textAlignment">
+       <set>AlignCenter</set>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Nombre Colindante</string>
+      </property>
+      <property name="textAlignment">
+       <set>AlignCenter</set>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
